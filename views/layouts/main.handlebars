@@ -7,20 +7,17 @@
   <title>Tech Blog</title>
   <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
-
-<body>
-  <div class="wrapper">
-      <header class="head-display">
-    <h1>
-      <a href="/">Tech Blog</a>
-    </h1>
-<nav>
+<div class="topnav">
+  <a class="active" href="/">Home</a>
+  <a  href="/">Tech Blog</a>
   {{#if loggedIn}}
   <button id="logout" class="btn-no-style">logout</button>
   {{else}}
   <a href="/login">login</a>
   {{/if}}
-</nav>
+</div>
+<body>
+  
   </header>
     <main>
       {{{ body }}}
