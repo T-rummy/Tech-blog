@@ -59,3 +59,7 @@ fork from github, install dependencies, start server, go to localhost:3001
 ## Repo
 
 https://github.com/T-rummy/Tech-blog
+
+## Screenshot
+
+![alt text](public/assets/screenshot.jpg)
